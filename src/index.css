@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+.nav-item{
+    margin:4px
+}
+
+.mainpage{
+    display:grid;
+    grid-template-columns:50% 50%;
+    height: 100vh;
+}
