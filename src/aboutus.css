@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+.nav-item{
+    margin:4px
+}
+
+@font-face 
+{
+    font-family: 'GenYoGothic'; 
+    src: url('../font/ttc/GenYoGothic-M.ttc') format('truetype');
+}
+@font-face 
+{
+    font-family: 'GenYoGothic-L'; 
+    src: url('../font/ttc/GenYoGothic-L.ttc') format('truetype');
+}
+
+
+.navbar-brand,
+  .nav-link {
+    font-family: 'GenYoGothic', sans-serif; 
+    font-size: 1.3rem; 
+    font-weight: normal; 
+}
+
+.mainpage{
+    display:grid;
+    grid-template-columns:50% 50%;
+    height: 100vh;
+}
+
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.icon{
+    height: 3rem; 
+    width: auto;
+}
+
+.navbar-items{
+    display: flex; 
+    align-items: center;
+    gap: 5vw; 
+  }
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+.icon2, .icon3 {
+    height: 2rem; 
+    width: auto;
+    margin-right: 2vw;
+}
+
+.policy{
+    font-family: 'GenYoGothic-L', sans-serif; 
+    font-size: 10px;     
+    font-weight: lighter; 
+    display: flex; 
+    align-items: center;
+}
+
+.petpals
+{
+    font-family: 'GenYoGothic-L', sans-serif; 
+    font-size: 0.01rem; 
+    font-weight: lighter;   
+}
