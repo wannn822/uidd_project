@@ -116,8 +116,8 @@
 }
 
 .welcome {
-    width: 60vw;
-    font-size: 3.5rem;
+    width: 65vw;
+    font-size: 5vw;
     color: #FFC533;
     text-align: center;
 }
@@ -134,14 +134,14 @@
 .content {
     font-family: 'GenYoGothic-R';
     letter-spacing: 3px;
-    line-height: 2rem;
-    font-size: 1.2rem;
+    line-height: 3vw;
+    font-size: 1.5vw;
     color: #003466;
 }
 
 .member {
     font-family: 'ChenYuluoyan-Thin';
-    font-size: 3.5rem;
+    font-size: 5vw;
     color: #003466;
     text-align: center;
 }
@@ -188,14 +188,14 @@
    }
   .name {
     color: #003466;
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: 'GenYoGothic', sans-serif;
     letter-spacing: 0.5rem;
   }
 
   .job {
     color: #7f8a93;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-family: 'GenYoGothic-L', sans-serif;
     letter-spacing: 0.5rem;
     padding: 1.5vw;
@@ -203,7 +203,57 @@
 
   .email {
     color: #7f8a93;
-    font-size: 0.8rem;
+    font-size: 1vw;
     font-family: 'GenYoGothic-L', sans-serif;
     letter-spacing: 0.01rem;
   }
+
+  .image-container {
+    width: 100%; 
+    position: relative; 
+    color: white; 
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+  .image-container img.yellow {
+    width: 100%; 
+    display: block; 
+}
+
+  .headtext {
+    font-family: 'ChenYuluoyan';
+    position: absolute;
+    top: 20%; 
+    left: 10vw;
+    font-size: 5vw; 
+    z-index: 2; 
+   }
+
+    .textb {
+    position: absolute; 
+    top: 45%; 
+    left: 10vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .startext {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh; 
+    }
+
+    .star {
+    width: 3vw; 
+    height: 3vw;
+    margin-right: 3vw; 
+    }
+
+    .text {
+    font-family: 'GenYoGothic-L', sans-serif;
+    color: white;
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+    }
